@@ -1,0 +1,55 @@
+HTTP 1.1
+
+The first usable version of HTTP was created in 1997.
+Because it went through several stages of development,
+this first version of HTTP was called HTTP/1.1. This version is still in use on the web .
+The HyperText Transfer Protocol (HTTP) is a data communications protocol and acts as 
+the foundation of the World Wide Web
+After the original version was released.
+the functionality was extended in HTTP/1.0,and overall, it was made more versatile.
+Protocol/version specification.
+
+Advantages of Http 1.1
+
+It is a generic, stateless protocol that can be used for many tasks beyond its use for hypertext
+such as name servers and distributed object management systems,
+Through extension of its request methods error codes, and headers.
+HTTP 1 was officially introduced and recognized in x`1996 .
+The first usable version of HTTP was created in 1997.
+Because it went through several stages of development,
+This first version of HTTP was called HTTP/1.1 .
+This version is still in use on the web.
+
+Disadvantages of Http 1.1
+
+Did not have built-in support for header compression, so headers were sent in plain text,
+which meant that they took up a significant amount of bandwidth.
+As a result, while sending large numbers of headers or when sending headers over slow connections
+This are the problems were faceFacing.
+
+Http/2
+
+HTTP/2 is able to use a single TCP connection to send multiple streams of 
+Data at once so that no one resource blocks any other resource
+In 2015, a new version of HTTP called HTTP/2 was created
+HTTP/2 solves several problems that the creators of HTTP/1.1 did not anticipate.
+In particular, HTTP/2 is much faster and more efficient than HTTP/1.1
+One of the ways in which HTTP/2 is faster is in how it prioritizes content during the loading process
+
+Advantages of Http/2
+
+HTTP/2 reduces the time it takes to load websites thanks to the adoption of the following measures
+HTTP/2 maintains the TCP connection for as long as the user stays on the page
+The browser can send multiple requests to the server at the same time. Prioritization is also possible
+Server push allows the server to send the requested files to the browser before it has finished parsing the HTML 
+Before the browser determines that it needs additional images or scripts.
+HTTP/2 makes web pages load faster and more efficiently by streamlining communication between the browser and server
+
+DisAdvantages of Http/2
+
+Caching of resources at the client side is a challenge as client does not have control over resources
+pushed by the server.
+HTTP/2 protocol is improvement to existing HTTP/1.1 protocol but it is not fully backward compatible to HTTP/1.1.
+Hence it may not interoperate with some of the existing systems.
+HTTP/2 protocol is at growing stage 
+Hence it may not be supported by some of the browsers and web servers.
